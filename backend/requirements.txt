@@ -1,0 +1,6 @@
+# Per AGENTS.md: pydantic-ai-slim[openai] (not the full pydantic-ai package),
+# since every model call goes to OpenAI models routed through Portkey.
+pydantic-ai-slim[openai]==2.46.0
+fastapi
+uvicorn[standard]
+python-dotenv
